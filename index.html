@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>
+    Bréw Connect
+  </title>
+  <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="icon" type="png" href="logo2.png">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">
+        <a href="/">
+            <img src="logo2.png" alt="Bréw Connect Logo" class="navbar-logo">
+            Bréw Connect
+        </a>
+    </div>
+    <ul class="nav-links">
+        </ul>
+</nav>
+
+  <!-- Welcome Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+        <h1>Welcome To Bréw Connect</span></h1>
+        <p>Your cozy corner for the perfect cup, crafted with love.</p>
+        <button onclick="location.href='/menu.html'"><i class="fas fa-coffee"></i> Explore Our Menu</button>
+    </div>
+</section>
+
+  <!-- Combo Packages Section -->
+<section class="combo-section">
+  <h2>✨ Special Combo Offers</h2>
+  <div class="combo-grid">
+    
+    <div class="combo-card">
+      <span class="sale-badge">BESTSELLER</span>
+      <img src="/images/cappuccino-croissant.png" alt="Cappuccino and Croissant">
+      <h3>Morning Classic</h3>
+      <p>Includes: Cappuccino + Butter Croissant</p>
+      <div class="price-container">
+        <span class="price">₹259</span>
+        <del>₹310</del>
+      </div>
+      <button onclick='addToCart({ "_id": "68dc2c72e6dcd4ce2a7fcf86", "name": "Morning Classic", "price": 259, "imageUrl": "/images/cappuccino-croissant.png" })'>
+          <i class="fas fa-shopping-cart"></i> Add to Cart
+      </button>
+    </div>
+    
+    <div class="combo-card">
+      <span class="sale-badge">SWEET DEAL</span>
+      <img src="/images/mocha-muffin.png" alt="Mocha and Chocolate Muffin">
+      <h3>Sweet Treat Combo</h3>
+      <p>Includes: Mocha + Chocolate Muffin</p>
+      <div class="price-container">
+        <span class="price">₹289</span>
+        <del>₹340</del>
+      </div>
+      <button onclick='addToCart({ "_id": "68dc2c72e6dcd4ce2a7fcf87", "name": "Sweet Treat Combo", "price": 289, "imageUrl": "/images/mocha-muffin.png" })'>
+          <i class="fas fa-shopping-cart"></i> Add to Cart
+      </button>
+    </div>
+
+    <div class="combo-card">
+      <span class="sale-badge">COZY UP</span>
+      <img src="/images/latte-bananabread.png" alt="Latte and Banana Bread">
+      <h3>Afternoon Break</h3>
+      <p>Includes: Latte + Banana Bread Slice</p>
+      <div class="price-container">
+        <span class="price">₹279</span>
+        <del>₹330</del>
+      </div>
+      <button onclick='addToCart({ "_id": "68dc2c72e6dcd4ce2a7fcf88", "name": "Afternoon Break", "price": 279, "imageUrl": "/images/latte-bananabread.png" })'>
+          <i class="fas fa-shopping-cart"></i> Add to Cart
+      </button>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Bréw Connect. All rights reserved.</p>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>

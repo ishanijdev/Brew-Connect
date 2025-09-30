@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mood Selector - Bréw Connect</title>
+  <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" type="png" href="logo2.png">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+        <a href="/">
+            <img src="logo2.png" alt="Bréw Connect Logo" class="navbar-logo">
+            Bréw Connect
+        </a>
+    </div>
+    <ul class="nav-links">
+        </ul>
+</nav>
+
+  <div class="mood-page-content">
+        <h1>Select Your Mood</h1>
+        <div class="mood-buttons">
+            <button class="mood-btn" onclick="suggestCoffee('sleepy', this)">😴 Sleepy</button>
+            <button class="mood-btn" onclick="suggestCoffee('stressed', this)">😩 Stressed</button>
+            <button class="mood-btn" onclick="suggestCoffee('happy', this)">😊 Happy</button>
+            <button class="mood-btn" onclick="suggestCoffee('focused',this)">🧠 Focused</button>
+            <button class="mood-btn" onclick="suggestCoffee('chill', this)">😌 Chill</button>
+        </div>
+
+        <h2 id="mood-results-title"></h2>
+
+        <div id="mood-results-grid" class="menu-grid">
+            <p class="initial-prompt">Click a mood above to get a recommendation!</p>
+        </div>
+    </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 Bréw Connect. All rights reserved.</p>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>

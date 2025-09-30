@@ -1,0 +1,8 @@
+# Ignore VS Code editor settings
+.vscode/
+
+# Ignore Node.js dependencies in the backend
+backend/node_modules/
+
+# Ignore environment secret files in the backend
+backend/.env
