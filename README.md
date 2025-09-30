@@ -75,3 +75,9 @@ To run this project locally, you will need to run the frontend and backend serve
 | `POST` | `/api/cart`                 | Add an item to the user's cart        | Private   |
 | `POST` | `/api/orders`               | Create a new order                    | Private   |
 | `GET`  | `/api/orders/myorders`      | Get all orders for the logged-in user | Private   |
+
+---
+
+## License 
+
+This project is open-source and free to use for educational purposes.
