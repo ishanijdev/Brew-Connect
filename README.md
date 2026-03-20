@@ -21,7 +21,7 @@ Brew Connect is a complete, full-stack e-commerce web application for a fictiona
 * **Persistent & Guest Carts:** A logged-in user's cart is saved to their account and persists across devices. Guests can use a cart powered by `localStorage`.
 * **Order Placement & History:** Authenticated users can place orders, which are saved to their account. A dedicated profile page allows users to view their complete order history with status tracking.
 * **Unique Mood Recommender:** A custom API endpoint filters and suggests coffees based on user-selected moods like "Happy," "Focused," or "Stressed."
-* **Simulated Payment Flow:** A complete checkout process with options for "Card" and "Cash on Delivery" that simulates a real transaction and updates order status.
+* **Simulated Payment Flow:** A complete checkout process with options for "Card" and "Cash on Delivery" that simulates a real transaction and updates order status. It integrates the Stripe API for secure card transactions using Payment Intents and webhooks, alongside a custom backend workflow for Cash on Delivery orders.
 * **Responsive Design:** The entire application is fully responsive and works beautifully on all device sizes.
 
 ---
